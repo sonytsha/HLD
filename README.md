@@ -1,6 +1,6 @@
 # 📘 High Level Design (HLD) Roadmap
 
-This document combines a **comprehensive HLD roadmap** with topics covered in **Shrayansh Jain’s courses/resources** (Udemy + Concept & Coding) and standard industry references. It is structured as a **study + interview preparation guide**.
+This document combines a **comprehensive HLD roadmap** with topics covered in **Shrayansh Jain’s courses/resources** (Udemy, Concept && Coding channel, InterviewReady references) and standard industry best practices. It is structured as a **study + interview preparation guide**.
 
 ---
 
@@ -68,9 +68,9 @@ This document combines a **comprehensive HLD roadmap** with topics covered in **
 * **Service Discovery & API Gateway**
 * **Idempotency & Retries**
 * **Saga Pattern & Outbox Pattern**
-* **Design Patterns for HLD** (from Shrayansh Jain’s course)
+* **Design Patterns for HLD** (Shrayansh Jain coverage)
 
-  * Proxy, Observer, Factory, Singleton usage in distributed systems
+  * Proxy, Observer, Factory, Singleton in distributed systems
 
 ---
 
@@ -87,4 +87,95 @@ This document combines a **comprehensive HLD roadmap** with topics covered in **
   * RED & USE methods
 * **Resiliency Patterns**
 
-  * Circuit breaker, bulkhead,
+  * Circuit breaker, bulkhead, failover
+
+---
+
+## 6. Security & Privacy
+
+* Authentication & Authorization (OAuth2, JWT)
+* Encryption (in-transit, at-rest)
+* Rate limiting & quota management
+* Secrets management
+* OWASP Top 10 for distributed systems
+
+---
+
+## 7. Cost & Performance Engineering
+
+* Latency profiling
+* FinOps basics
+* Horizontal vs vertical scaling
+* CDN offloading to reduce infra costs
+
+---
+
+## 8. Special Systems (Shrayansh Jain Coverage)
+
+* **Search Systems**
+
+  * Inverted index, Elasticsearch
+* **Real-time Systems**
+
+  * WebSockets, long polling, SSE
+* **Media/File Storage**
+
+  * Object storage, CDN, chunking, deduplication
+* **Analytics Pipelines**
+
+  * Batch vs streaming, ETL vs ELT
+* **Payment Systems**
+
+  * Double-entry ledger
+  * Idempotency keys, reconciliation
+* **Rate Limiting Systems**
+
+  * Token bucket, leaky bucket
+* **Distributed Logging & Monitoring**
+
+  * Log aggregation, tracing, alerting pipelines
+
+---
+
+## 9. Case Studies (Interview-Ready)
+
+* URL Shortener
+* Rate Limiter
+* News Feed System
+* Chat/Messaging App
+* Notification Service
+* File Storage/Drive (Dropbox, Google Drive)
+* Search Autocomplete
+* Ride Sharing (Uber)
+* Video Streaming (YouTube/Netflix)
+* Ad Serving System
+* Web Crawler
+* E-commerce Checkout
+* Payment Gateway (Stripe, Razorpay-like)
+* Social Media Timeline (Instagram/Twitter)
+* Distributed Logging System (Splunk/ELK)
+
+---
+
+## 10. Interview Strategy
+
+* **Workflow for 45–60 min interviews**
+
+  * Clarify requirements
+  * Estimate capacity
+  * Design components
+  * Trade-offs
+  * Wrap-up with evolution path
+* Always highlight:
+
+  * APIs
+  * Data storage choices
+  * Scalability approach
+  * Reliability/resiliency
+  * Cost and performance
+
+---
+
+✅ With this roadmap, you won’t miss **any topic from Shrayansh Jain (Udemy + YouTube + InterviewReady) or standard FAANG-style HLD prep**.
+
+👉 Next step: We will go **topic by topic**, starting with **Problem Framing & API-first design** in depth (interview pitch → deep dive → memory tricks → interview Qs → mini-task).
